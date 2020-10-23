@@ -26,6 +26,8 @@ jupyter notebook
 
 # Question 2 install instructions
 
+Follow instructions from pdf to install MuJoCo.
+
 Install all requirements to a new environment.
 
 ```
