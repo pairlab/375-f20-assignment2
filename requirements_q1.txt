@@ -1,0 +1,4 @@
+pinocchio
+notebook
+matplotlib
+example-robot-data
