@@ -1,4 +1,4 @@
-pinocchio
-notebook
+numpy
+scipy
 matplotlib
-example-robot-data
+scikits.bvp_solver
