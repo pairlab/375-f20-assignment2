@@ -31,7 +31,7 @@ Follow instructions from pdf to install MuJoCo.
 Install all requirements to a new environment.
 
 ```
-conda create --name 375a2q2 --file requirements_q2.yml
+conda env create -f environment_q2.yml
 ```
 
 Activate the new environment before running code.
