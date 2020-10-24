@@ -28,9 +28,22 @@ jupyter notebook
 
 Follow instructions from pdf to install MuJoCo.
 
+The following command will install MuJoCo pre-reqs under Ubuntu.
+
+```
+sudo apt install libosmesa6-dev libgl1-mesa-glx libglfw3 build-essential libglfw3-dev libglib2.0-0
+```
+
+ If you see an error that `-lGL` cannot be found, you may need to create a symbolic link directly.
+
+```
+sudo ln -s /usr/lib/x86_64-linux-gnu/libGL.so.1 /usr/lib/x86_64-linux-gnu/libGL.so
+```
+
 Install all requirements to a new environment.
 
 ```
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/ubuntu/.mujoco/mujoco200/bin
 conda env create -f environment_q2.yml
 ```
 
