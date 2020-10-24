@@ -18,10 +18,10 @@ Activate the new environment before running code.
 conda activate 375a2q1
 ```
 
-Start jupyter and run notebooks.
+Then you can run your code and view results in `plots/`.
 
 ```
-jupyter notebook
+python P1_differential_flatness.py
 ```
 
 # Question 2 install instructions
