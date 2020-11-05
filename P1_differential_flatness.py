@@ -141,7 +141,7 @@ if __name__ == "__main__":
     V,om = compute_controls(traj=traj)
 
     part_b_complete = False
-    s = compute_arc_length(V, t)
+    s = None
     if s is not None:
         part_b_complete = True
         V_tilde = rescale_V(V, om, V_max, om_max)
